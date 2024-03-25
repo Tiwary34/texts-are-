@@ -1,0 +1,67 @@
+body {background-color:lightgray;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://i.postimg.cc/YqFd6KWs/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+ 
+
+#area {
+    width: 600px;
+    height: 150px;
+    align-self: center;
+    margin-left: 13%;
+    margin-right: 50%;
+    transform: translate(160%, 10%);
+    padding-top: 20%;
+    border-radius: 20px;
+}
+#border {
+    width: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+ 
+
+.btn{
+    transform: translate(370%, 100%);
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
